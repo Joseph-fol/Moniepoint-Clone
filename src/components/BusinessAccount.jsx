@@ -1,23 +1,14 @@
 import React from 'react'
+import { useRef } from 'react'
 
-const BusinessAccount = () => {
+const BusinessAccount = ({ businessAccountRef, businessSavingsRef, pointOfSalesRef, expenseCardRef, workingCapitalRef, moniebookRef }) => {
+
     return (
         <>
             <section className='text-center pt-10 bg-[#f8fafd] flex justify-center items-center'>
                 <p className='text-xl p-5 md:text-4xl font-bold max-w-2xl text-[#1b3363]'>All the tools you need to run your business with ease</p>
             </section>
-
-            <section className="sticky top-20 z-40 hidden md:block bg-[#f8fafd] py-6 px-25">
-                <div className='flex gap-5 items-center justify-center bg-white rounded-4xl py-7 '>
-                    <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer active'>Business Account</button>
-                    <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer'>Point of Sales Terminal</button>
-                    <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer'>Expense Card</button>
-                    <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer'>Working Capital Loans</button>
-                    <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer'>Business Savings</button>
-                    <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer'>Moniebook</button>
-                </div>
-            </section>
-
+            
             <section className="px-5 pt-5 md:pt-20 md:px-18 bg-[#f8fafd] max-h-full">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-between space-y-10 md:space-y-0">
                     <div className="md:w-1/2 block md:hidden">

@@ -17,7 +17,7 @@ const BusinessSavings = () => {
                             Save for your dreams
                         </h1>
                         <p className="text-base md:text-lg mb-8 text-[#1b3363] max-w-lg">
-                            Whether you dream of travelling abroad, buying a house or owning a house you can create a savings plan for your goals and earn up to 16% interest p.a. as a reward for saving.
+                            Whether you dream of traveling abroad, buying a house or owning a house you can create a savings plan for your goals and earn up to 16% interest p.a. as a reward for saving.
                         </p>
 
                         <div className='flex items-center gap-5'>
