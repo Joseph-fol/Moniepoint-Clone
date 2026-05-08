@@ -16,12 +16,12 @@ const HeroSection = () => {
             <section className="px-10 pt-16 md:pt-20 bg-[#031335] max-h-full">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-between space-y-10 md:space-y-0">
                     <div className="md:w-1/2 md:mt-20 py-10">
-                        <p className='text-white rounded-4xl bg-[#3e588e] md:w-105 p-4'>Africa's fastest growing financial Institution 2023-2025</p>
+                        <p className='text-white rounded-4xl w-auto bg-[#3e588e] md:max-w-md p-4'>Africa's fastest growing financial Institution 2023-2025</p>
                         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
                             Simple solutions to <br className="hidden md:block" />
                             <span className="text-[#c4e9fd]">power your business</span>
                         </h1>
-                        <p className="text-lg mb-8 md:w-125 text-gray-600 dark:text-gray-300">
+                        <p className="text-lg mb-8 md:max-w-lg text-gray-600 dark:text-gray-300">
                             Collect payments, access loans and manage operations with a business banking solution that meets all your needs.
                         </p>
 
@@ -41,14 +41,14 @@ const HeroSection = () => {
 
                 <div className="relative z-10 max-w-8xl mx-auto pt-18 px-4 sm:px-6 lg:px-8">
                     <div className="bg-white rounded-4xl shadow-sm w-full  p-8">
-                        <div className="flex gap-4 justify-between">
-                            <div className='flex md:gap-10 flex-wrap'>
-                                <h3 className="text-2xl font-bold text-[#031335] md:p-4 w-100 md:w-55">Businesses that Count On Us</h3>
-                                <p className="mt-4 text-gray-500 text-[15px] md:text-sm md:w-50 w-100 tracking-tighter md:font-medium">Join <span className='text-[#0357ee]'>5 million</span> business owners on the Moniepoint platform</p>
+                        <div className="flex flex-col md:flex-row gap-4 md:justify-between">
+                            <div className='flex flex-col gap-3'>
+                                <h3 className="text-xl md:text-2xl font-bold text-[#031335]">Businesses that Count On Us</h3>
+                                <p className="text-sm md:text-base text-gray-500 tracking-tighter md:font-medium max-w-xs md:max-w-sm">Join <span className='text-[#0357ee]'>5 million</span> business owners on the Moniepoint platform</p>
                             </div>
 
-                            <div className='hidden md:block'>
-                                <p className='text-8xl font-extrabold text-transparent tracking-tighter [-webkit-text-stroke:1px_#3b82f6]'>5m+</p>
+                            <div className='hidden md:flex items-center'>
+                                <p className='text-6xl md:text-8xl font-extrabold text-transparent tracking-tighter [-webkit-text-stroke:1px_#3b82f6]'>5m+</p>
                             </div>
                         </div>
 
@@ -122,7 +122,7 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <section className='text-center mt-10 flex justify-center items-center'>
-                    <p className='text-xl p-5 md:text-4xl font-bold w-150 text-[#1b3363]'>All the tools you need to run your business with ease</p>
+                    <p className='text-xl p-5 md:text-4xl font-bold max-w-2xl text-[#1b3363]'>All the tools you need to run your business with ease</p>
                 </section>
             </div>
 
