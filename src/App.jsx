@@ -63,15 +63,16 @@ const App = () => {
     <>
       <NavbarComponent />
       <HeroSection />
-      
+
       <section className="sticky top-20 z-40 hidden md:block bg-[#f8fafd] py-6 px-25">
         <div className='flex gap-5 items-center justify-center bg-white rounded-4xl py-7 '>
-          <button onClick={() => scrollToSection(businessAccountRef, 'businessAccount')} className={`${activeButton === 'businessAccount' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer active`}>Business Account</button>
-          <button onClick={() => scrollToSection(pointOfSalesRef, 'pointOfSales')} className={`${activeButton === 'pointOfSales' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer`}>Point of Sales Terminal</button>
-          <button onClick={() => scrollToSection(expenseCardRef, 'expenseCard')} className={`${activeButton === 'expenseCard' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer`}>Expense Card</button>
-          <button onClick={() => scrollToSection(workingCapitalRef, 'workingCapital')} className={`${activeButton === 'workingCapital' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer`}>Working Capital Loans</button>
-          <button onClick={() => scrollToSection(businessSavingsRef, 'businessSavings')} className={`${activeButton === 'businessSavings' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer`}>Business Savings</button>
-          <button onClick={() => scrollToSection(moniebookRef, 'moniebook')} className={`${activeButton === 'moniebook' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer`}>Moniebook</button>
+          <button onClick={() => scrollToSection(businessAccountRef, 'businessAccount')} className={`${activeButton === 'businessAccount' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd] focus:bg-[#c4e9fd] focus:text-[#1b3363]'} font-medium py-3 px-3 rounded-full duration-300 border border-[#f8fafd] text-[17px] cursor-pointer active`}>Business Account</button>
+
+          <button onClick={() => scrollToSection(pointOfSalesRef, 'pointOfSales')} className={`${activeButton === 'pointOfSales' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd] focus:bg-[#c4e9fd] focus:text-[#1b3363]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] text-[17px] cursor-pointer`}>Point of Sales Terminal</button>
+          <button onClick={() => scrollToSection(expenseCardRef, 'expenseCard')} className={`${activeButton === 'expenseCard' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd] focus:bg-[#c4e9fd] focus:text-[#1b3363]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] text-[17px] cursor-pointer`}>Expense Card</button>
+          <button onClick={() => scrollToSection(workingCapitalRef, 'workingCapital')} className={`${activeButton === 'workingCapital' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd] focus:bg-[#c4e9fd] focus:text-[#1b3363]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] text-[17px] cursor-pointer`}>Working Capital Loans</button>
+          <button onClick={() => scrollToSection(businessSavingsRef, 'businessSavings')} className={`${activeButton === 'businessSavings' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd] focus:bg-[#c4e9fd] focus:text-[#1b3363]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] text-[17px] cursor-pointer`}>Business Savings</button>
+          <button onClick={() => scrollToSection(moniebookRef, 'moniebook')} className={`${activeButton === 'moniebook' ? 'bg-[#c4e9fd] text-[#1b3363]' : 'text-[#98a4bd] focus:bg-[#c4e9fd] focus:text-[#1b3363]'} font-medium py-3 px-3 rounded-full border border-[#f8fafd] text-[17px] cursor-pointer`}>Moniebook</button>
         </div>
       </section>
 
