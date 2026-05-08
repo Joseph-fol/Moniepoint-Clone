@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
     return (
-        <div className='bg-[#f8fafd]'>
+        <>
             <style>{`
                 @keyframes scrollAnimation {
                     0% { transform: translateX(0px); }
@@ -121,12 +121,12 @@ const HeroSection = () => {
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
 
-        </div>
+        </>
     )
 }
 

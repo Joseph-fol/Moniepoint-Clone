@@ -8,7 +8,6 @@ const PointOfSalesTerminal = () => {
                     <div className="md:w-1/2 block md:hidden">
                         <img src="https://moniepoint.com/business/tool2.png" alt="Hero Image" className=" rounded-lg w-[150%]" />
                     </div>
-
                     <div className="">
                         <div className='bg-[#ebf2fd] rounded-4xl text-center w-auto inline-block px-4 py-2'>
                             <p className='text-[#1b3363]'>Point of Sale Terminal</p>

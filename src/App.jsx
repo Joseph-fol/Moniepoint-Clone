@@ -3,6 +3,8 @@ import NavbarComponent from './components/NavbarComponent'
 import HeroSection from './components/HeroSection'
 import BusinessAccount from './components/BusinessAccount'
 import PointOfSalesTerminal from './components/PointOfSalesTerminal'
+import ExpenseCard from './components/ExpenseCard'
+import WorkingCapitalLoans from './components/WorkingCapitalLoans'
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
       <HeroSection/>
       <BusinessAccount/>
       <PointOfSalesTerminal/>
+      <ExpenseCard/>
+      <WorkingCapitalLoans/>
     </>
   )
 }
