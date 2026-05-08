@@ -7,9 +7,9 @@ const BusinessAccount = () => {
                 <p className='text-xl p-5 md:text-4xl font-bold max-w-2xl text-[#1b3363]'>All the tools you need to run your business with ease</p>
             </section>
 
-            <section className="sticky bg-[#f8fafd] px-25">
+            <section className="sticky hidden md:block bg-[#f8fafd] px-25">
                 <div className='flex gap-5 items-center justify-center bg-white rounded-4xl py-7 '>
-                    <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer'>Business Account</button>
+                    <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer'active>Business Account</button>
                     <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer'>Point of Sales Terminal</button>
                     <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer'>Expense Card</button>
                     <button className='text-[#98a4bd] font-medium py-3 px-3 rounded-full border border-[#f8fafd] focus:bg-[#c4e9fd] focus:text-[#1b3363] text-[17px] cursor-pointer'>Working Capital Loans</button>
