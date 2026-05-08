@@ -3,6 +3,11 @@ import React from 'react'
 const BusinessAccount = () => {
     return (
         <>
+            <section className='text-center bg-[#f8fafd] flex justify-center items-center'>
+                <p className='text-xl p-5 md:text-4xl font-bold max-w-2xl text-[#1b3363]'>All the tools you need to run your business with ease</p>
+            </section>
+
+
             <section className="px-5 pt-5 md:pt-20 md:px-18 bg-[#f8fafd] max-h-full">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-between space-y-10 md:space-y-0">
                     <div className="md:w-1/2 block md:hidden">
@@ -14,7 +19,7 @@ const BusinessAccount = () => {
                             <p className='text-[#1b3363]'>Business Account</p>
                         </div>
 
-                        <h1 className="text-2xl my-4 md:text-[38px] font-bold text-[#162f61] mb-6 md:leading-10 max-w-sm">                            
+                        <h1 className="text-2xl my-4 md:text-[38px] font-bold text-[#162f61] mb-6 md:leading-10 max-w-sm">
                             A free bank account to power your business
                         </h1>
                         <p className="text-base md:text-lg mb-8 text-[#1b3363] max-w-lg">

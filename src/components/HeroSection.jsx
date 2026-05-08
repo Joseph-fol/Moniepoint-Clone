@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
     return (
-        <>
+        <div className='bg-[#f8fafd]'>
             <style>{`
                 @keyframes scrollAnimation {
                     0% { transform: translateX(0px); }
@@ -36,15 +36,17 @@ const HeroSection = () => {
                 </div>
             </section>
 
-            <div className="relative w-full bg-[#f8fafd] overflow-hidden min-h-screen">
+            <div className="relative w-full bg-[#f8fafd] overflow-hidden py-5">
                 <div className="absolute top-0 -left-[25%] w-[150%] h-[150px] bg-[#031335] rounded-b-[50%]"></div>
 
                 <div className="relative z-10 max-w-8xl mx-auto pt-18 px-4 sm:px-6 lg:px-8">
                     <div className="bg-white rounded-4xl shadow-sm w-full  p-8">
                         <div className="flex flex-col md:flex-row gap-4 md:justify-between">
-                            <div className='flex flex-col gap-3'>
-                                <h3 className="text-xl md:text-2xl font-bold text-[#031335]">Businesses that Count On Us</h3>
-                                <p className="text-sm md:text-base text-gray-500 tracking-tighter md:font-medium max-w-xs md:max-w-sm">Join <span className='text-[#0357ee]'>5 million</span> business owners on the Moniepoint platform</p>
+
+                            <div className='flex flex-wrap gap-3 md:gap-10 md:p-15 w-auto'>
+                                <h3 className="text-xl md:text-3xl md:max-w-55 font-bold text-[#031335]">Businesses that Count On Us</h3>
+
+                                <p className="text-sm md:text-base text-gray-500 tracking-tighter md:font-medium max-w-xs md:max-w-65">Join <span className='text-[#0357ee]'>5 million</span> business owners on the Moniepoint platform</p>
                             </div>
 
                             <div className='hidden md:flex items-center'>
@@ -119,14 +121,12 @@ const HeroSection = () => {
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
-                <section className='text-center mt-10 flex justify-center items-center'>
-                    <p className='text-xl p-5 md:text-4xl font-bold max-w-2xl text-[#1b3363]'>All the tools you need to run your business with ease</p>
-                </section>
             </div>
 
-        </>
+        </div>
     )
 }
 
