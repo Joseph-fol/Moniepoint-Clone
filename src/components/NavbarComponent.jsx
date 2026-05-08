@@ -5,8 +5,8 @@ const NavbarComponent = () => {
     return (
         <>
             {/* fluid */}
-            <Navbar className='sticky left-0 right-0 !bg-[#031335] py-3 md:py-5 px-4 md:px-8'>
-                <NavbarBrand className='flex-grow md:flex-grow-0'>
+            <Navbar className='fixed left-0 right-0 z-50 !bg-[#031335] py-3 md:py-5 px-4 md:px-8'>
+                <NavbarBrand className='grow md:grow-0'>
                     <img src="https://moniepoint.com/logo-mfb-white.png" className="mr-2 md:mr-3 h-5 md:h-9" alt="Moniepoint logo" />
                     <div className='hidden md:flex gap-2'>
                         <button className='bg-[#35425d] text-white rounded-2xl py-2 px-3 md:px-4 font-semibold text-sm md:text-base'>Business</button>

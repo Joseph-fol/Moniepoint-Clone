@@ -3,30 +3,129 @@ import React from 'react'
 const HeroSection = () => {
     return (
         <>
-            <section class="px-10 bg-[#031335] max-h-full">
-                <div class="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-between space-y-10 md:space-y-0">
-                    <div class="md:w-1/2 md:mt-20 py-10">
-                        <p className='text-white rounded-4xl bg-[#3e588e] md:w-[420px] p-4'>Africa's fastest growing financial Institution 2023-2025</p>
-                        <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                            Simple solutions to <br class="hidden md:block" />
-                            <span class="text-[#c4e9fd]">power your business</span>
+            <style>{`
+                @keyframes scrollAnimation {
+                    0% { transform: translateX(0px); }
+                    100% { transform: translateX(-1500px); }
+                }
+                .scroll-animate {
+                    animation: scrollAnimation 30s linear infinite;
+                }
+            `}</style>
+            
+            <section className="px-10 pt-16 md:pt-20 bg-[#031335] max-h-full">
+                <div className="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-between space-y-10 md:space-y-0">
+                    <div className="md:w-1/2 md:mt-20 py-10">
+                        <p className='text-white rounded-4xl bg-[#3e588e] md:w-105 p-4'>Africa's fastest growing financial Institution 2023-2025</p>
+                        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                            Simple solutions to <br className="hidden md:block" />
+                            <span className="text-[#c4e9fd]">power your business</span>
                         </h1>
-                        <p class="text-lg mb-8 md:w-125 text-gray-600 dark:text-gray-300">
+                        <p className="text-lg mb-8 md:w-125 text-gray-600 dark:text-gray-300">
                             Collect payments, access loans and manage operations with a business banking solution that meets all your needs.
                         </p>
 
-
-                        <a href="#" class="bg-[#0357ee] hover:bg-[#073996] text-white font-semibold px-10 py-5 rounded-lg hover:scale-105 duration-200">
+                        <a href="#" className="bg-[#0357ee] hover:bg-[#073996] text-white font-semibold px-10 py-5 rounded-lg hover:scale-105 duration-200">
                             Open Account
                         </a>
-
                     </div>
 
-                    <div class="md:w-1/2">
-                        <img src="https://moniepoint.com/business/hero-sub.png" alt="Hero Image" class="rounded-lg shadow-lg w-[150%]" />
+                    <div className="md:w-1/2">
+                        <img src="https://moniepoint.com/business/hero-sub.png" alt="Hero Image" className="hidden md:block rounded-lg w-[150%]" />
                     </div>
                 </div>
             </section>
+
+            <div className="relative w-full bg-[#f8fafd] overflow-hidden min-h-screen">
+                <div className="absolute top-0 -left-[25%] w-[150%] h-[150px] bg-[#031335] rounded-b-[50%]"></div>
+
+                <div className="relative z-10 max-w-8xl mx-auto pt-18 px-4 sm:px-6 lg:px-8">
+                    <div className="bg-white rounded-4xl shadow-sm w-full  p-8">
+                        <div className="flex gap-4 justify-between">
+                            <div className='flex md:gap-10 flex-wrap'>
+                                <h3 className="text-2xl font-bold text-[#031335] md:p-4 w-100 md:w-55">Businesses that Count On Us</h3>
+                                <p className="mt-4 text-gray-500 text-[15px] md:text-sm md:w-50 w-100 tracking-tighter md:font-medium">Join <span className='text-[#0357ee]'>5 million</span> business owners on the Moniepoint platform</p>
+                            </div>
+
+                            <div className='hidden md:block'>
+                                <p className='text-8xl font-extrabold text-transparent tracking-tighter [-webkit-text-stroke:1px_#3b82f6]'>5m+</p>
+                            </div>
+                        </div>
+
+                        <div className="overflow-hidden w-full py-4">
+                            <div className='scroll-animate flex gap-5'>
+                                <div className='h-40 w-56 md:h-40 md:w-80 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-1.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-2.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-3.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-4.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-5.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-6.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-7.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-8.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-80 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-1.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-2.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-3.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-4.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-5.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-6.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-7.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+
+                                <div className='h-40 w-56 md:h-40 md:w-56 border rounded-md border-gray-300 my-4 items-center justify-center flex shrink-0'>
+                                    <img src="https://moniepoint.com/ng/biz-8.png" alt="" className='h-24 w-40 md:h-24 md:w-40 object-contain' />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section className='text-center mt-10 flex justify-center items-center'>
+                    <p className='text-xl p-5 md:text-4xl font-bold w-150 text-[#1b3363]'>All the tools you need to run your business with ease</p>
+                </section>
+            </div>
+
         </>
     )
 }
