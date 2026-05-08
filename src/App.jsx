@@ -5,6 +5,7 @@ import BusinessAccount from './components/BusinessAccount'
 import PointOfSalesTerminal from './components/PointOfSalesTerminal'
 import ExpenseCard from './components/ExpenseCard'
 import WorkingCapitalLoans from './components/WorkingCapitalLoans'
+import BusinessSavings from './components/BusinessSavings'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <PointOfSalesTerminal/>
       <ExpenseCard/>
       <WorkingCapitalLoans/>
+      <BusinessSavings/>
     </>
   )
 }

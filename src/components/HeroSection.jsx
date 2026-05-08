@@ -16,18 +16,23 @@ const HeroSection = () => {
             <section className="px-10 pt-16 md:pt-20 bg-[#031335] max-h-full">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-between space-y-10 md:space-y-0">
                     <div className="md:w-1/2 md:mt-20 py-10">
-                        <p className='text-white rounded-4xl w-auto bg-[#3e588e] md:max-w-md p-4'>Africa's fastest growing financial Institution 2023-2025</p>
-                        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                        <p className='text-white text-sm rounded-4xl w-auto bg-[#3e588e] md:max-w-sm p-4'>Africa's fastest growing financial Institution 2023-2025</p>
+                        <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
                             Simple solutions to <br className="hidden md:block" />
                             <span className="text-[#c4e9fd]">power your business</span>
                         </h1>
-                        <p className="text-lg mb-8 md:max-w-lg text-gray-600 dark:text-gray-300">
+                        <p className="text-md mb-8 md:max-w-lg text-gray-600 dark:text-gray-300">
                             Collect payments, access loans and manage operations with a business banking solution that meets all your needs.
                         </p>
 
-                        <a href="#" className="bg-[#0357ee] hover:bg-[#073996] text-white font-semibold px-10 py-5 rounded-lg hover:scale-105 duration-200">
-                            Open Account
-                        </a>
+                        <button className="bg-[#0357ee] hover:bg-[#073996] text-white font-semibold px-7 py-4 rounded-lg hover:scale-95 duration-200 cursor-pointer text-sm">
+                                Open an Account
+                            </button>
+
+                        <div className='pt-4'>
+                            <p className='text-white text-[13px]'>We are licensed by 
+                                 </p>
+                        </div>
                     </div>
 
                     <div className="md:w-1/2">
@@ -45,7 +50,6 @@ const HeroSection = () => {
 
                             <div className='flex flex-wrap gap-3 md:gap-10 md:p-15 w-auto'>
                                 <h3 className="text-xl md:text-3xl md:max-w-55 font-bold text-[#031335]">Businesses that Count On Us</h3>
-
                                 <p className="text-sm md:text-base text-gray-500 tracking-tighter md:font-medium max-w-xs md:max-w-65">Join <span className='text-[#0357ee]'>5 million</span> business owners on the Moniepoint platform</p>
                             </div>
 
@@ -121,7 +125,6 @@ const HeroSection = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
