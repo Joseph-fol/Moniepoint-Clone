@@ -26,10 +26,17 @@ const App = () => {
   }
 
   useEffect(() => {
+    const handleScroll = () => {
+      document.activeElement?.blur()
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
+            document.activeElement?.blur()
             if (entry.target === businessAccountRef.current) {
               setActiveButton('businessAccount')
             } else if (entry.target === pointOfSalesRef.current) {
@@ -56,7 +63,10 @@ const App = () => {
     if (businessSavingsRef.current) observer.observe(businessSavingsRef.current)
     if (moniebookRef.current) observer.observe(moniebookRef.current)
 
-    return () => observer.disconnect()
+    return () => {
+      observer.disconnect()
+      window.removeEventListener('scroll', handleScroll)
+    }
   }, [])
 
   return (
