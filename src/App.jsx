@@ -7,6 +7,7 @@ import ExpenseCard from './components/ExpenseCard'
 import WorkingCapitalLoans from './components/WorkingCapitalLoans'
 import BusinessSavings from './components/BusinessSavings'
 import Moniebook from './components/Moniebook'
+import Card from './components/Card'
 
 const App = () => {
   const businessAccountRef = useRef(null)
@@ -116,6 +117,8 @@ const App = () => {
       <div ref={moniebookRef} className="scroll-mt-40">
         <Moniebook />
       </div>
+
+      <Card/>
     </>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 const Moniebook = () => {
     return (
         <>
-            <section className="px-5 pt-5 md:pt-20 md:px-18 bg-[#f8fafd] max-h-full">
+            <section className="px-5 pt-5 pb-5 md:pt-20 md:px-18 bg-[#f8fafd] max-h-full">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-between space-y-10 md:space-y-0">
                     <div className="md:w-1/2 block md:hidden">
                         <img src="https://moniepoint.com/business/tool6.png" alt="Business Saving" className=" rounded-lg w-[150%]" />

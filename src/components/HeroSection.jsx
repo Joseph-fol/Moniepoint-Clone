@@ -12,7 +12,7 @@ const HeroSection = () => {
                     animation: scrollAnimation 30s linear infinite;
                 }
             `}</style>
-            
+
             <section className="px-10 pt-16 md:pt-20 bg-[#031335] max-h-full">
                 <div className="max-w-7xl mx-auto flex flex-col md:flex-row flex-wrap justify-between space-y-10 md:space-y-0">
                     <div className="md:w-1/2 md:mt-20 py-10">
@@ -26,12 +26,12 @@ const HeroSection = () => {
                         </p>
 
                         <button className="bg-[#0357ee] hover:bg-[#073996] text-white font-semibold px-7 py-4 rounded-lg hover:scale-95 duration-200 cursor-pointer text-sm">
-                                Open an Account
-                            </button>
+                            Open an Account
+                        </button>
 
                         <div className='pt-4'>
-                            <p className='text-white text-[13px]'>We are licensed by 
-                                 </p>
+                            <p className='text-white text-[13px]'>We are licensed by
+                            </p>
                         </div>
                     </div>
 
@@ -43,16 +43,14 @@ const HeroSection = () => {
 
             <div className="relative w-full bg-[#f8fafd] overflow-hidden py-5">
                 <div className="absolute top-0 -left-[25%] w-[150%] h-[150px] bg-[#031335] rounded-b-[50%]"></div>
-
                 <div className="relative z-10 max-w-8xl mx-auto pt-18 px-4 sm:px-6 lg:px-8">
                     <div className="bg-white rounded-4xl shadow-sm w-full  p-8">
+                        
                         <div className="flex flex-col md:flex-row gap-4 md:justify-between">
-
                             <div className='flex flex-wrap gap-3 md:gap-10 md:p-15 w-auto'>
                                 <h3 className="text-xl md:text-3xl md:max-w-55 font-bold text-[#031335]">Businesses that Count On Us</h3>
                                 <p className="text-sm md:text-base text-gray-500 tracking-tighter md:font-medium max-w-xs md:max-w-65">Join <span className='text-[#0357ee]'>5 million</span> business owners on the Moniepoint platform</p>
                             </div>
-
                             <div className='hidden md:flex items-center'>
                                 <p className='text-6xl md:text-8xl font-extrabold text-transparent tracking-tighter [-webkit-text-stroke:1px_#3b82f6]'>5m+</p>
                             </div>
